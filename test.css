@@ -1,0 +1,105 @@
+body {
+ background-color: #22242a;
+ font-family: sans-serif;
+}
+
+nav {
+ display: flex;
+ justify-content: end;
+ color: white;
+ gap: 30px;
+}
+
+nav img {
+ width: 50px;
+ border-radius: 10000000px;
+}
+
+.Google:hover {
+ cursor: pointer;
+}
+
+.search-box {
+ display: flex;
+ background-color: #363840;
+ width: 760px;
+ border-radius: 100000000000000000px;
+ margin-top: 40px;
+ border: thick;
+}
+
+input {
+ position: relative;
+ background-color: #363840;
+ border-radius: 10000000000000000px;
+ padding: 20px 25px;
+ width: 700px;
+ caret-color: white;
+ font-size: 23px;
+ border: none;
+ outline: none;
+}
+
+.search-box span {
+ display: flex;
+ align-items: center;
+ height: 20px;
+ padding: 10px;
+ font-size: 38px;
+ color: white;
+ z-index: 99;
+ margin-top: 13px;
+ margin-left: 10px;
+ border-radius: 70px;
+}
+
+.search-box span:hover {
+ background-color: #4d5156;
+ cursor: pointer;
+}
+
+.voice {
+ width: 25px;
+ padding: 15px;
+ z-index: 999;
+}
+
+.voice:hover {
+ cursor: pointer;
+ background-color: #4D5156;
+}
+
+.google-img {
+ width: 25px;
+ padding: 15px;
+ z-index: 999;
+}
+
+.google-img:hover {
+ cursor: pointer;
+ background-color: #4D5156;
+}
+
+.google {
+ display: flex;
+ align-items: center;
+ color: white;
+ margin: 0;
+ font-size: 90px;
+ width: fit-content;
+ cursor: pointer;
+}
+
+.middle {
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.8s ease, opacity 0.3s ease;
+  white-space: nowrap;
+  color: #4285F4;
+}
+
+.google:hover .middle {
+  max-width: 500px;
+  opacity: 1;
+}
